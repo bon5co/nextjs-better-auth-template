@@ -1,5 +1,9 @@
-import { ComponentExample } from "@/components/component-example";
+import { AuthSection } from "@/components/auth-section";
 
 export default function Page() {
-return <ComponentExample />;
+  return (
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <AuthSection />
+    </div>
+  );
 }
